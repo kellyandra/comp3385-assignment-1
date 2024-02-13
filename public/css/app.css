@@ -1,0 +1,40 @@
+
+
+/* Styles for <h1> element */
+h1 {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #1f0117; 
+    text-align: center;
+}
+
+/*Styles for <img> element*/
+img {
+    height:800px;
+    width:800px;
+    display: block;
+    margin: 0 auto; 
+}
+/* Styles for <h2> element */
+h2 {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #630350; 
+    text-align: center;
+}
+
+/* Styles for <p> element */
+p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #630350; 
+    font-family: cursive;
+
+}
+
+footer{
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #630350; 
+    text-align: center; 
+}
