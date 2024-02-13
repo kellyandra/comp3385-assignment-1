@@ -1,5 +1,4 @@
 
-
 /* Styles for <h1> element */
 h1 {
     font-size: 24px; 
@@ -29,6 +28,7 @@ p {
     line-height: 1.5; 
     color: #630350; 
     font-family: cursive;
+    
 
 }
 
@@ -37,4 +37,5 @@ footer{
     font-weight: bold; 
     color: #630350; 
     text-align: center; 
+   
 }
