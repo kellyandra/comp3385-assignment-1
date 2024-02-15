@@ -5,6 +5,18 @@ h1 {
     font-weight: bold; 
     color: #1f0117; 
     text-align: center;
+    /*additional animation*/
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
 }
 
 /*Styles for <img> element*/
@@ -31,11 +43,16 @@ p {
     
 
 }
-
+/*Styles for <footer> element */
 footer{
     font-size: 20px; 
     font-weight: bold; 
     color: #630350; 
     text-align: center; 
    
+}
+
+/*Styles for <body> element */
+body{
+    background: linear-gradient(to bottom, rgba(255, 204, 204, 0.5), rgba(255, 102, 102, 0.5));
 }
